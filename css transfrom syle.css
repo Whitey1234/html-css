@@ -1,0 +1,43 @@
+h1{
+    color: blue;
+    text-align: center;
+}
+.transfrom{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(247, 0, 255);
+    margin-block-end: auto;
+    position: relative;
+    transform: rotate(50deg);/* its for only rotate */
+    margin: auto;
+}
+.transfrom h3{
+    font-size: 40px;
+    top: 25%;
+    position: absolute;
+}
+.transfrom1{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(247, 0, 255);
+    margin-block-end: auto;
+    position: relative;
+    transform:skewX(10deg);/* skew mane tirjok*/
+}
+.transfrom2{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(247, 0, 255);
+    margin-block-end: auto;
+    position: relative;
+    transform:scaleX(10);/* scale for x and Y dik barbe*/
+}
+.transfrom3{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(247, 0, 255);
+    margin-block-end: auto;
+    position: relative;
+    transform: translate(200PX, 30PX);/* scale for x and Y dik barbe*/
+}
+

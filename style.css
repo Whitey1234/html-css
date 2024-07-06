@@ -1,0 +1,334 @@
+.head{ 
+    color:rgb(182, 230, 241);
+    background-color:rgba(0, 0, 0, 0.815);
+    border-bottom: 5px solid rgb(185, 226, 213)  ;/*bottom  means sudhu niche border hobe*/
+    outline: 6px dotted blue ;/* outline use for extra border*/
+    text-align: center;
+}
+
+h4 {      
+   color:rgb(255, 0, 255);   
+ 
+
+
+}
+/*in the avove dot(.) means the class and (#) means the id */
+
+.p1 {
+    text-align: center;
+    background-color:pink;
+    color:tomato;
+    border-width: 5px;
+    border-style: double;/*there are many border styel */
+    border-color: rgb(226, 43, 83);
+    padding: auto;
+    border-radius: 20px;
+            /* border width,styke,color also written as like this in down*/ }
+ #p2 { background-color: pink;
+    border: 2px dotted rosybrown;
+    padding: 50px;  /* paddin for how to long or lenth the border*/
+    border-radius: 250px /*border radius for its shspes in one corner and two value means up and down corner shapes*/
+   
+ }
+    
+.najmul {
+width: 20px;
+height: 50px;
+
+background-color: blueviolet;
+border: 20px double red ; 
+margin: 20px 300px 20px 20px;/* margine use for gap frist right ,left tobbp, dowwn*/
+}
+
+#div1{
+   width: 500px;
+   background-color: aliceblue; 
+   border: 2px outset red;
+outline: 2px;
+text-align: center;  /* TEXT alin mens text pposition*/
+
+
+}
+#p3{ color: brown;
+      text-transform:capitalize; /* text transfromer means means  frist  latter samall or big cractor*/
+      text-indent: 500px; /* in give space in strat point*/
+      letter-spacing: 5px;
+      word-spacing: 50px;
+      line-height: 30px;
+
+
+}
+
+#div2{
+   color: pink;
+   background-color: red;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: bolder;  /*here wight can  discrive the value  of fomt bold or light here you can use numer MV like : 100  */ 
+font-style:italic ; /* here you can with font style you van change the font style likeitalic and many type */ 
+font-size: 100px;
+
+
+}
+.fa-solid{
+   font-size: 10px; /*in we need to use font size to customize */
+   margin-bottom: 10px;
+   
+   
+   /*here is a problemm of icon center problem */
+        
+        color: white;
+}
+span{ 
+                  
+   color: pinkS;
+  font-size: 1px;/*in the google font , font size is not working*/   
+}
+/* here we are    use 4 metrial to use itin 4 types  */
+
+
+#div3:link{
+  
+   border: 5px solid tomato;
+   border-radius:25px ;
+   padding:22px 23px ;
+
+    text-decoration:none ;
+    display: inline-block;/* inline  block not start a new line */
+   
+
+}
+#div3:visited{
+   color: blueviolet;
+   border: 5px solid tomato;
+   border-radius:25px ;
+   padding:22px 23px ;
+    text-decoration:none ;
+    display: inline;/* inline start a new line and it cant customize   */
+}
+#div3:hover{
+   background-color: tomato;
+}
+#div3:active{
+   background-color: tomato; 
+}
+
+
+a:link{
+   color: azure;
+   border: 5px solid tomato;
+   border-radius: 25px;
+   text-align: center;
+   padding: 22px 23px ;
+   text-decoration: none;
+display: inline-block;/* inline  block not start a new line */
+   
+
+
+
+
+}
+a:visited{
+ color: black;
+   border: 5px solid tomato;
+   border-radius: 21px;
+   text-align: center;
+   padding: 22px 23px ;
+   text-decoration: none;
+   display: inline-block; /* inline  block not start a new line */
+   
+}
+a:hover{
+background-color: brown;
+font-size: 50px;
+
+}
+a:active{
+   background-color: brown;
+   font-size: 50px;
+
+}
+
+
+#div4 {    /* 1. here we are use another of div tag  for list take to in center */
+   text-align:center;
+   background-color: palegreen;
+}
+/*list style type inside ,out site , annd many typoe and image */
+
+/* /* if we need to  move list into in center we  need use 3 step one by one  1st step is div tag */
+ul{
+   list-style: decimal-leading-zero ; /* here  we can aloso use imasge tag  by this code { img{} }*/
+   color: red;
+   
+   text-align: left; /*2. we are use text align left because for div genter  match  to text */
+   display: inline-block;/* 3. and 3rd is use for center inline block 
+   inline block work in never go in second line  */ 
+font-weight: bold;}
+/* we are using here over flow tag  */
+#div5{
+   color: blueviolet;
+   width:200px;
+   height: 200px;
+   border: 5px solid red;
+   overflow: scroll; /* over flow has many type scroll, auto and many types */
+   margin: auto;
+}
+
+/*now we are  use  positon tag for art
+      there are many possition tag , we are use here only  absulate,  relative ,stiky , fix */
+   .flaggreen{
+      height: 300px;
+      width: 500px;
+      background-color: green;
+      position: relative;  /* relative tag control the other position */
+      
+      
+   }
+.flagred{
+height: 200px;
+width: 200px;
+background-color: red;
+border-radius: 88%;
+position: absolute;
+left: 0%;  /* her are 4 value can be use : right , left . top .bottom  and */
+right: 0%;
+top: 0%;
+bottom: 0%;
+margin: auto;
+
+} 
+#div7 {
+   color: hotpink;
+   outline: 2px dashed peru;
+   width: 200px;
+
+}
+#div8{
+   border: 5px double red;
+   margin: auto;
+   background-color: rgb(8, 182, 8);
+   width: 100px;
+   position:sticky;
+   top: 0;
+}
+#div9{
+   border: 5px dotted red;
+   margin: auto;
+   background-color: rgb(8, 182, 8);
+   width: 100px;
+   position:fixed;
+   bottom: 0;
+   right: 0;
+}
+
+i:nth-child(2) {
+   color:red;
+ }
+      
+.bg{
+   width: 700px;
+   height: 200px;
+   
+   
+background-image: url(background.jpg);
+
+background-repeat:no-repeat;
+background-position: center;
+overflow: hidden;
+
+}
+
+
+.box p{
+   background-color: white;
+   margin-top: 100px;
+   padding: 10px;
+   
+   text-align: center;
+   opacity: 0.5; /*opacity means  capacity of nvissible*/
+   font-size: 30px;
+}
+.gradiant{
+   width: 300px;
+   height: 200px;
+   background:linear-gradient(red,pink);
+   margin: auto;
+}
+.radial {
+   width: 300px;
+   height: 200px;
+   background:radial-gradient(red,green);
+   margin: auto;
+   opacity: 0.5;
+}
+
+.shadow {
+   text-shadow:5px 5px 5px  red ;
+   text-align: center;
+   font-size: large;
+}
+.shadow2 img{
+   width: 300px;
+   height: 300px;
+}
+.shadow2{
+   width: 300px;
+   height: 300px;
+   margin: auto;
+   border: 3px solid rgb(0, 0, 0, 0.5);
+   box-shadow: 5px 5px 5px rgb(0, 0, 0,0.5); /* in here 0.5 is  a opacity value*/
+   box-shadow: -5px -5px 5px rgb(0, 0, 0,0.5);
+}
+.sprite-image{
+   height: 60px;
+   width: 108px;
+   background-image: url(sprite.jpg);
+   background-position: 0px 80px;
+
+   border-radius: 25px;
+
+}
+.transition {
+   width: 300px;
+   height: 300px;
+   background-color: brown;
+   margin: auto;
+   transition-property: all;
+   transition-delay: 1s;
+   transition-duration: 1s;
+transition-timing-function: cubic-bezier(0.23, 1, 0.320, 1); /*it we can change by bezier website */ 
+
+}
+.transition:hover{
+   background-color:green;
+   border-radius: 90px;
+   width: 100px;
+   height: 100px;
+}
+.flex{
+   background-color: aqua;
+   font-size: 30px;
+   display: flex;/*this flex for  aktar por akta like inline block*/
+  /* flex-wrap:wrap-revers ;*/
+  /*here we can also  : warp-revers */
+  flex-wrap: wrap;
+ /* flex-direction: column; we can also column dereaction*/
+ flex-direction: row;
+ /* justify-content:space-around ; */
+ justify-content:center ;
+ 
+}
+.flex > div{
+   background-color:gray;
+   margin: 5px;
+   padding: 5px;
+   width: 200px;
+   text-align: center;
+   
+   
+
+
+}
+
+body { background-image:url(004.jpg);/*for backgroud image */
+}

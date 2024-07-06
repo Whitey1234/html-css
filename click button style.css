@@ -1,0 +1,44 @@
+p{color: pink;
+
+  text-align: center;
+}
+
+.dv:link {
+    background-color: white;
+    color: black;
+    border: 2px solid green;
+    border-radius: 20PX;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block; /*display inlinblocjlk means : By default, list items are displayed vertically. In this example we use display: inline-block to display them horizontally (side by side).*/
+  } 
+  .dv:visited{background-color: white;
+    color: red;
+    border: 2px solid green;
+    border-radius: 20PX;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;}
+  .dv:hover {
+    background-color: green;
+    color: white;
+    
+  }
+  .dv:active{
+    background-color: green;
+    color: white;
+    
+
+  }
+  #div9{
+    color: black;
+    border: 5px dotted red;
+    margin: auto;
+    background-color: rgb(8, 182, 8);
+    width: 100px;
+    position:fixed;
+    bottom: 0;
+    right: 0;
+ }
